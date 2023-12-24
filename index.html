@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Зачет Web-Программирование</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Планировщик задач</h1>
+      <div id="theme-toggle">
+        <button id="change-them" onclick="toggleTheme()">Смена темы</button>
+      </div>
+      <input type="text" id="new-task" placeholder="Добавить новую задачу..." />
+      <button id="btn-newTask" onclick="addTask()">Добавить</button>
+      <ul id="tasks-list">
+        <!-- список задач -->
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
